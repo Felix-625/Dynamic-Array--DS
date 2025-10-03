@@ -1,1 +1,3 @@
 # Dynamic-Array--DS
+
+This C# code solves the Dynamic Array problem by maintaining n sequences and processing a list of queries. The dynamicArray function creates n empty lists and uses a variable lastAnswer to track the last retrieved value. For each query, it computes an index using XOR between x and lastAnswer, then either appends a value to the corresponding sequence (type 1 query) or retrieves and updates lastAnswer based on the sequence's content (type 2 query), storing the results. The Main method reads input values, parses queries, calls dynamicArray, and outputs the results. This approach efficiently uses XOR and modular arithmetic to dynamically access and modify sequences.
